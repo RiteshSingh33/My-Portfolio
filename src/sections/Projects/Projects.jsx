@@ -13,7 +13,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={educator}
-          link="https://github.com/RiteshSingh33/Educator"
+          to="/projects/educator"
           h3="Educator"
           p={
             <>
@@ -24,25 +24,25 @@ function Projects() {
         />
         <ProjectCard
           src={leads}
-          link="https://github.com/RiteshSingh33/DRCODE_HACKATHON"
+          to="/projects/leads"
           h3="Potential Leads"
           p="Finding the potential leads"
         />
         <ProjectCard
           src={travel}
-          link="https://github.com/RiteshSingh33/TravelToGetHer"
+          to="/projects/travel"
           h3="Travel ToGetHer"
           p="Car Rental Website"
         />
         <ProjectCard
           src={dh}
-          link="https://github.com/RiteshSingh33/DH-Traders"
+          to="/projects/dh"
           h3="DH Clothing"
           p="E - commerce Platform"
         />
         <ProjectCard
           src={voice}
-          link="https://github.com/RiteshSingh33/Smart-Voice-Assistant"
+          to="/projects/voice"
           h3="Voice Assistant"
           p="Smart Voice Assistant"
         />
